@@ -1,0 +1,107 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background: #fff;
+  color: #333;
+  font-family: 'Courier New', 'Courier', sans-serif;
+  background: linear-gradient(to top right, #43389f 0%, #4ec6ca 100%);
+  border-radius: 2px;
+  box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.center > * {
+  text-align: center;
+  color: #fff;
+}
+
+.numeros {
+  position: relative;
+  width: 200px;
+  height: 100px;
+}
+
+.one {
+  position: absolute;
+  width: 24px;
+  height: 40px;
+  background-color: #fff;
+  transform: rotate(45deg);
+  left: -15px;
+  top: 2px;
+  z-index: 1;
+  border-radius: 3px;
+  box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.2);
+}
+
+.one-one {
+  position: absolute;
+  height: 100px;
+  width: 24px;
+  background: #fff;
+  box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  z-index: 10;
+}
+
+.zero-one {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  box-sizing: border-box;
+  left: 15px;
+  top: 0;
+  border-radius: 50%;
+  border: 24px solid #fff;
+  box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.2);
+  z-index: 8;
+}
+
+.zero-two {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  box-sizing: border-box;
+  right: 0;
+  top: 0;
+  border-radius: 50%;
+  border: 24px solid #fff;
+  box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.2);
+  z-index: 6;
+}
+
+.days {
+  display: block;
+  font-size: 82px;
+  font-weight: 700;
+  line-height: 60px;
+  text-transform: uppercase;
+}
+
+.challengue {
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  display: block;
+  text-transform: uppercase;
+}
